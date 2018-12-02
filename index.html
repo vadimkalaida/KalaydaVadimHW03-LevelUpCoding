@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>KalaydVadimHW03</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Регистрация на форуме:</h1>
+
+    <form action="#" method="post">
+
+      <div class="user">
+        <label for="username"> Username:
+          <input id="username" type="text" name="username" placeholder="Username" required>
+        </label>
+      </div>
+
+      <div class="useremail">
+        <label for="email"> Email:
+          <input id="email" type="email" name="useremail" placeholder="Email" required>
+        </label>
+      </div>
+
+      <div class="userpassword">
+        <label for="password"> Password:
+          <input id="password" type="password" name="userpassword" placeholder="Password" required>
+        </label>
+      </div>
+
+      <hr>
+      <h2>О себе:</h2>
+
+      <div class="fio">
+        <h3>ФИО:</h3>
+        <label for="lastname">Фамилия
+          <input id="lastname" type="text" name="lastname" placeholder="Last Name" required>
+        </label><br>
+
+        <label for="name">Имя
+          <input id="name" type="text" name="name" placeholder="Name" required>
+        </label><br>
+
+        <label for="middlename">Отчество
+          <input id="middlename" type="text" name="middlename" placeholder="Middle Name(Необязательно)">
+        </label>
+      </div>
+
+      <hr class="aboutme-hr">
+
+      <div class="sex">
+        <h3>Ваш пол:</h3>
+        <label for="man">Мужской
+          <input id="man" type="radio" name="sex">
+        </label>
+
+        <label for="woman">Женский
+          <input id="woman" type="radio" name="sex">
+        </label>
+      </div>
+
+      <hr class="aboutme-hr">
+
+      <div class="birthday">
+        <h3>Дата рождения:</h3>
+        <input type="date" name="birthday" required>
+      </div>
+
+      <hr>
+
+      <div class="spam">
+        <label for="spam">Хотите ли вы подписаться на самую лучшую рассылку спама?
+          <input id="spam" type="checkbox" name="spam" required>
+        </label>
+      </div>
+
+      <hr>
+
+      <input class = "button" type="submit" name="buttonsubmit" value="Отправить">
+    </form>
+  </body>
+</html>

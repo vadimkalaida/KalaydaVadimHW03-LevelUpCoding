@@ -1,0 +1,161 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 24px;
+  background: linear-gradient(45deg, #ff0000, #0000ff);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1px;
+}
+
+h1 {
+  text-align: center;
+  color: #ffc61b;
+}
+
+input {
+  font-size: 16px;
+  color: #ff0000;
+  border-radius: 3px;
+}
+
+input:focus {
+  outline: 1px solid #0de635;
+  font-weight: bold;
+}
+
+input[type="text"]:focus{
+  color: #df2a2a;
+}
+
+label {
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.user {
+  text-align: center;
+}
+
+.useremail {
+  padding-top: 20px;
+  text-align: center;
+}
+
+input[type="email"] {
+  color: #8f00ff;
+}
+
+input[type="email"]:focus {
+  color: #6c0fb4;
+}
+
+.userpassword {
+  padding-top: 20px;
+  text-align: center;
+}
+
+input[type="password"] {
+  color: orange;
+}
+
+input[type="password"]:focus {
+  color: darkorange;
+}
+
+hr {
+  max-width: 650px;
+  border: 2px solid #ffffff;
+  border-radius: 3px;
+  text-align: center;
+}
+
+h2 {
+  text-transform: uppercase;
+  color: #00aafe;
+  text-align: center;
+}
+
+h3 {
+  font-weight: normal;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.sex {
+  text-align: center;
+}
+
+.sex label{
+  color: gold;
+}
+
+input[type="radio"]{
+  outline: none;
+  border: 2px solid gold;
+}
+
+.aboutme-hr {
+  max-width: 330px;
+}
+
+.fio input{
+  margin-top: 20px;
+  color: #6e6e6e;
+  width: 220px;
+}
+
+.fio input:focus {
+  color: #5c5454;
+}
+
+.fio {
+  text-align: center;
+}
+
+.birthday{
+  text-align: center;
+}
+
+input[type="date"]{
+  color: #2fc735;
+}
+
+.spam {
+  text-align: center;
+}
+
+.spam label{
+  font-size: 22px;
+}
+
+input[id="spam"]{
+  outline-color: #00ffab;
+  width: 17px;
+  height: 17px;
+}
+
+.button {
+  width: 125px;
+  height: 35px;
+  border: 1px solid #4d4d4d;
+  border-radius: 4px;
+  cursor: pointer;
+  background: transparent;
+  transition: 0.3s;
+  color: #494949;
+  margin-left: 46.7%;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover{
+  background-color: #D9D9D9;
+}
